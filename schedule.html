@@ -22,11 +22,34 @@
 	</div>
 
 	<div class="container">
-		<div id="bio">
-			<p>Please enter your information to schedule an appointment.</p>
-		</div>
-		<div id="form">
 		
+		<div id="form">
+			<form target="_self">			
+			<p>Please enter your information to schedule an appointment.</p>
+			<fieldset>
+ 				<label for="firstname">First name:</label><br>
+			 	<input type="text" id="fname" name="fname" value=""><br>
+				<label for="lastname">Last name:</label><br>
+				<input type="text" id="lname" name="lname" value=""><br><br>
+				 <input type="checkbox">
+				 <label for="service1">Interior Cleaning</label><br>
+				 <input type="checkbox">
+				 <label for="service2">Exterior Cleaning</label><br>
+				 <input type="checkbox">
+				 <label for="service3">Polishing</label><br>
+				 <input type="checkbox">
+				 <label for="service4">Ceramic Coating</label><br></br>
+				 <label for="date">Desired Service Date</label></br>
+  <input type="date" id="day" name="day"><br></br>
+				<label for="email">Email:</label><br>
+				<input type="email" id="bookemail" name="email" value=""></br></br>
+				<label for="phone">Phone:</label><br>
+  <input type="tel" placeholder="1234567890" maxlength="10" size="10"><br></br></br><br>
+  				<input type="reset">
+				<input type="submit" value="Submit">
+			
+			</fieldset>
+			</form>
 		</div>
 	
 	</div>
