@@ -1,1 +1,1 @@
-# Welcome to my shop
+# Web page for Westcliff BUS 670
