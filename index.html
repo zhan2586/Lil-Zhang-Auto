@@ -6,11 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link href="css/master.css" rel="stylesheet" type="text/css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<script src="scripts/rotating.js"></script>
 </head>
 
-<body>
+<body onload="startRotation()">
 	<div class="banner">
-		<a href="http://www.zhangauto.com/index.html"><img src="images\banner\banner.png" class="title"/></a>
+		<a href="http://www.zhangauto.com/"><img src="images\banner\banner.png" class="title"/></a>
 		
 		<nav>
 			<div class="dropdown">
@@ -34,7 +35,7 @@
 		
 		<div id="bio">	
 		<div id="rotatepic">
-			<img src="images\home\r1.jpg" style="width:500px" />
+			<img id="rotatingimg" src="images/home/r1.jpg" alt="Detailing Photo" width="550" height="550"/>
 		</div>
 			<p>What does auto detailing mean? Auto detailing is more than just a regular car wash. It involves professional washing, cleaning, restoring, and coating on a car inside and outside. This is a time-consuming process in order to rejuvenate the car and let it shine again just like the first day you drove it home. Here at Lil Zhang Auto Detailing, our team is well-trained to handle both domestic and exotic cars with expertise knowledge in this field.</p>
 		</div>			

@@ -149,11 +149,12 @@ a:active{
 	opacity: 0.9
 }
 
-#rotatepic {
+#rotatingimg {
 	position: relative;
 	float: right;
 	margin: auto;
-	padding-left: 100px;	
+	padding-left: 100px;
+	padding-top: 40px;	
 }
 
 #map {
