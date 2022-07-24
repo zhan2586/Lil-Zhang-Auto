@@ -3,17 +3,14 @@
 var today = new Date();
 
 //Build the appropriate prefix for filenames, depending on whether
-//today is a weekday (indoor images) or the weekend (outdoor images)
 var prefix = "images/home/";
 switch (today.getDay())
 {
-    case 0:
-    case 5:
-    case 6:
+    case 0:   
+    case 1:
         prefix += "r";
         break;
-    default:
-        prefix += "indoor";
+    
 }
 
 //Use that prefix to put the proper sequence of image filenames into an array
